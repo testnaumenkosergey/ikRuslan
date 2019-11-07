@@ -11,6 +11,11 @@ Hello world!
 class TaskA1 {
     public static void main(String[] args) {
         System.out.println("привет, все получилось!!!");
+        System.out.println("привет, все получилось!!!");
+        System.out.println("привет, все получилось!!!");
+        System.out.println("привет, все получилось!!!");
+        System.out.println("привет, все получилось!!!");
+
 
     }
 }

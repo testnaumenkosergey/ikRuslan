@@ -1,4 +1,4 @@
-package lesson2;
+package sergey.lesson2;
 /*
 Существует ли пара?
 Ввести с клавиатуры три целых числа.

@@ -1,4 +1,4 @@
-package lesson2;
+package sergey.lesson2;
 
 /*
 

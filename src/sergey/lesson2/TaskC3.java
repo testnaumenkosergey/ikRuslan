@@ -1,4 +1,4 @@
-package lesson2;
+package sergey.lesson2;
 
 /*
 Вывести таблицу умножения 10 x 10 (двоныйм циклом),

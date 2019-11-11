@@ -1,4 +1,4 @@
-package lesson2;
+package sergey.lesson2;
 
 /*
 Напишите программу которая спрашивает у пользователя:

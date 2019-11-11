@@ -1,4 +1,4 @@
-package lesson2;
+package ruslan.lesson2;
 
 /*
 Выведите на экран в цикле 10 раз фразу
@@ -26,7 +26,16 @@ package lesson2;
  */
 public class TaskA1 {
     public static void main(String[] args) {
-
+        //       int i = 1;
+        //       while(i<=10){
+        for (int i = 1; i <= 10; i++) {
+            if ((i == 3) || (i == 9)) {
+                System.out.println("Меня интересует высокая зарплата!");
+            } else {
+                System.out.println("Я изучаю программирование.");
+            }
+            //          i++;
+        }
     }
 
 

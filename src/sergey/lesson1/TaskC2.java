@@ -20,10 +20,25 @@ class TaskC2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = a + b;
+        String binA = Integer.toBinaryString(a);
+        String octA = Integer.toOctalString(a);
+        String hexA = Integer.toHexString(a);
 
-        String ahex = Integer.toHexString(a);
+        String binnB = Integer.toBinaryString(b);
+        String octB = Integer.toOctalString(b);
+        String hexB = Integer.toHexString(b);
 
-        System.out.println(a + "=" + ahex);
+        String binnC = Integer.toBinaryString(c);
+        String octC = Integer.toOctalString(c);
+        String hexC = Integer.toHexString(c);
+
+
+        System.out.printf("DEC:%d+%d=%d%n", a, b, c);
+        System.out.printf("BIN:%s+%s=%s%n", binA, binnB, binnC);
+        System.out.printf("HEX:%s+%s=%s%n", hexA, hexB, hexC);
+        System.out.printf("OCT:%s+%s=%s%n", octA, octB, octC);
 
     }
 }

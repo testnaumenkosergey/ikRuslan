@@ -7,9 +7,9 @@ package sergey.lesson1;
 
 class TaskA3 {
     public static void main(String[] args) {
-        int i = 0;
-        int j = 0;
+        int i = 2;
+        int j = 5;
         int k = i * (i + i) * j;
-        System.out.println();
+        System.out.printf("%d*(%d+%d)*%d=%d", i, i, i, j, k);
     }
 }

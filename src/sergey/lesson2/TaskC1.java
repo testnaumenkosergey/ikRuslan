@@ -1,5 +1,7 @@
 package sergey.lesson2;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,26 @@ package sergey.lesson2;
 
 */
 public class TaskC1 {
+    public static void main(String[] args){
+        String b="январь";
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner sc = new Scanner(System.in);
+        int money = sc.nextInt();
+        int month = 0;
+        if (money>300 || money<3000){
+            System.out.println("Мы вам перезвоним!");
+        }
+        else {
+            while (month<0){
+                if (month<=0 || month>=13){
+                    System.out.println("За месяц " + month + " начислено $0.0");
+                }
+                else if (month>=1 && month<6 || month>=9 && month<13){
+                    System.out.println();
+                }
+        }
+        }
+    }
 
 
 }

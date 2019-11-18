@@ -26,6 +26,6 @@ package ruslan.lesson2;
 256
 
  */
-public class TaskC2 {
 
+public class TaskC2 {
 }

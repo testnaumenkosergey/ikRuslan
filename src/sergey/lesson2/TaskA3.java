@@ -22,31 +22,6 @@ package sergey.lesson2;
  */
 
 
-import java.util.Scanner;
-
 public class TaskA3 {
-    public static void main(String[] args){
-        while (true){
-            Scanner sc = new Scanner(System.in);
-            int i = sc.nextInt();
-            int b = sc.nextInt();
-            int c = sc.nextInt();
-            if ( i==b && i==c){
-                System.out.print(i + " " + b + " " + c);
-            }
-            else{
-                if (i==b){
-                    System.out.println(i + " " + b);
-                }
-                else if (i==c){
-                    System.out.println(i + " " + c);
-                }
-                else if (b==c){
-                    System.out.println(b + " " + c);
-                }
-            }
-        }
-
-    }
 
 }

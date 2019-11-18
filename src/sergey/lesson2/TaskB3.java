@@ -25,7 +25,16 @@ package sergey.lesson2;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        int i = sc.nextInt();
+        int b = 1;
+        while (b<i){
+
+        }
+    }
 
 }
